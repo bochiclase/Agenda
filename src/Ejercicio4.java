@@ -10,7 +10,9 @@ public class Ejercicio4 {
 			String [] partes = new String [1];
 			Map <String, String> mapa = new HashMap<String,String>();
 			
-			while(cadena != "fin") {
+			do {
+				System.out.println("Para introducir en la Agenda nombre-telefono");
+				System.out.println("Para buscar numeros en la Agenda buscar:nombre");
 				System.out.println("Introduce");
 				cadena = r.nextLine();
 				
@@ -53,7 +55,9 @@ public class Ejercicio4 {
 				}
 				
 				 
-			} r.close();
+			} while (!cadena.equals("fin"));
+			System.out.print("Has Salido de la Agenda");
+			r.close();
 	}
 		
 
