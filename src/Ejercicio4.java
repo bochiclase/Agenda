@@ -36,6 +36,7 @@ public class Ejercicio4 {
 				partes = cadena.split(":");
 				String numero = partes[0];
 				String nombre = partes[1];
+				
 
 				if (mapa.containsKey(nombre)) {
 					System.out.println(nombre + " -> " + mapa.get(nombre));
@@ -50,7 +51,7 @@ public class Ejercicio4 {
 					numero = null;
 					almacen.clear();
 				}
-
+ 
 			} else {
 				System.out.println("No has introducido correctamente el patron de la Agenda");
 				System.out.println("");
