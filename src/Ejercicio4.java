@@ -56,7 +56,7 @@ public class Ejercicio4 {
 				System.out.println("No has introducido correctamente el patron de la Agenda");
 				System.out.println("");
 			}
-
+ 
 		} while (!cadena.equals("fin"));
 		System.out.print("Has Salido de la Agenda");
 		r.close();
